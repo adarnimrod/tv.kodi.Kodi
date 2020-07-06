@@ -1,0 +1,17 @@
+{
+    "name": "libevdev",
+    "buildsystem": "meson",
+    "cleanup": [
+    ],
+    "config-opts": [
+        "-Ddocumentation=disabled",
+        "-Dtests=disabled"
+    ],
+    "sources": [
+        {
+            "type": "git",
+            "url": "https://gitlab.freedesktop.org/libevdev/libevdev.git",
+            "tag": "libevdev-1.9.0"
+        }
+    ]
+}

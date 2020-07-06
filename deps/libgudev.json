@@ -1,0 +1,16 @@
+{
+    "name": "libgudev",
+    "buildsystem": "autotools",
+    "cleanup": [
+    ],
+    "config-opts": [
+        "--disable-umockdev"
+    ],
+    "sources": [
+        {
+            "type": "git",
+            "url": "https://gitlab.gnome.org/GNOME/libgudev.git",
+            "tag": "233"
+        }
+    ]
+}

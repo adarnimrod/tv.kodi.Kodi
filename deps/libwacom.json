@@ -1,0 +1,14 @@
+{
+    "name": "libwacom",
+    "sources": [
+        {
+            "type": "git",
+            "url": "https://github.com/linuxwacom/libwacom.git",
+            "tag": "libwacom-1.3"
+        }
+    ],
+    "config-opts": [
+    ],
+    "cleanup": [
+    ]
+}

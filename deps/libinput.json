@@ -1,0 +1,18 @@
+{
+    "name": "libinput",
+    "buildsystem": "meson",
+    "cleanup": [
+    ],
+    "config-opts": [
+        "-Ddebug-gui=false",
+        "-Ddocumentation=false",
+        "-Dtests=false"
+    ],
+    "sources": [
+        {
+            "type": "git",
+            "url": "https://gitlab.freedesktop.org/libinput/libinput.git",
+            "tag": "1.14.3"
+        }
+    ]
+}
